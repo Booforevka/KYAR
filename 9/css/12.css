@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: 40vw 40vw 18vw;
+    grid-template-rows: 45vw 6vw;
+    width: 100vw;
+    grid-gap: 5px;
+}
+.grid div{
+border: 2px solid black;
+position: relative;
+display: block;
+}

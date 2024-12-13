@@ -1,0 +1,55 @@
+.first~div{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-size: 40px;
+    border-width: 10px;
+    padding: 25px;
+}
+.R{
+    border: 1px inset rgb(255, 0, 0);
+}
+.G{
+    border: 1px dashed green;
+
+}
+.B{
+    border: 1px dotted blue;
+}
+.c{
+    border: 1px double aqua;
+}
+.M{
+    border: 1px inset magenta;
+}
+.Y{
+
+    border: 1px inset yellow;
+}
+.K{
+    border: 1px solid black;
+}
+p{
+ display: inline-block;
+}
+span{
+    padding:5px;
+    border: 5px inset #FF4500 ;
+    background-color:  #FFA500;
+    display: inline-block;
+}
+.p1{
+    display: block;
+    width: 400px;
+    margin: auto;   
+    border: 5px inset #FF7F50;
+}
+.p2{
+    display: block6;
+    border: red inset 5px;
+    border-radius: 20px 40px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,5);
+    overflow: auto;
+}
+.p3{
+    border: 2px inset #FF6347;
+}

@@ -1,0 +1,83 @@
+@function calculatesize($asize) {
+    @return $asize * 0.8;
+  }
+main{
+    display: grid;
+    width: 98vw;
+    grid-template-columns: 60vw 39vw;
+    grid-row: 3;
+    .section1{
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        h2{
+            @include borderboxmain();
+            text-align: center;
+            font-size: calculatesize($asize);
+        }
+        .mainblock{
+            display: flex;
+            flex-direction: row;
+            
+            .block{
+                @include borderboxmain();
+                font-size: 16px;
+            }
+        }
+    }
+    .section2{
+        width: 60vw;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        h2{
+            @include borderboxmain();
+            text-align: center;
+        }
+        .mainblock{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 25%;
+                @include borderboxmain()
+            }
+        }
+    }
+    .grid2{
+        h2{
+            @include borderboxmain();
+            text-align: center;
+            width: 96%;
+        }
+        .form{
+            width: 37vw;
+            padding: 2px;
+            @include borderboxmain();
+            form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input, textarea, button {
+                padding: 10px;
+                font-size: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+              }
+            }
+        }        
+        .gallery{
+            display: flex;
+            flex-direction: column;
+            @include borderboxmain();
+            width: 96%;
+            .block{
+                
+                img{
+                    width: 25%;
+                    float: left;
+                    margin: 5px;
+                }
+            }
+            }
+        }
+    }

@@ -1,0 +1,27 @@
+#main{
+    display: table;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin: 0px;
+} 
+td{
+    display: table-cell;
+    height: 75px;
+    width:125px;
+    border: 1px solid black;
+}
+#days{
+    margin: auto;
+    text-align: center;
+    transform: rotate(180deg);
+    background: rgb(52, 52, 52);
+    writing-mode:vertical-lr;
+    vertical-align:middle;
+    font-size: 20px;
+}
+tr:nth-child(1){
+    background-color: rgba(135, 51, 100, 100);
+}
+
+

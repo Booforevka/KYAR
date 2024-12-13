@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Данные студента</title>
+        <link  rel="stylesheet" href="4.css">
+        <meta charset="utf-8">
+    </head>
+<body>
+   
+    <header>
+    <p>Данные студента</p>
+</header>
+<form>    
+<section><div class="div1">
+    <label>Имя студента:</label><br>
+    <label>Отчество студента:</label><br>
+    <label>Фамилия студента:</label><br>
+    <label>Адрес почты:</label><br>
+    <label>Контактный номер:</label><br>
+    <label>Факультет:</label><br>
+    <label>Группа:</label><br>
+    <label>Курс:</label><br>
+    </div>
+    <div class="div2">
+        <input type="text" width="5" id="name" required placeholder="Обязательное поле"><br>
+        <input type="text" width="5" id="middlename" required placeholder="Обязательное поле"><br>
+        <input type="text" width="5" id="lastname" required placeholder="Обязательное поле"><br>
+        <input type="email" width="5" id="email" required placeholder="Обязательное поле"><br>
+        <input type="number" id="phone" placeholder="+375(xx)xxxxxx" width="1" ><br>
+        <select id="facultet">
+            <option>Выберите факультет</option>
+            <option>ФИТ</option>
+            <option>ТОВ</option>
+            <option>ИЭФ</option>
+            <option>ХТИТ</option>
+        </select><br>
+        <select id="group">
+            <option>Группа</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>   
+        <select id="course">
+            <option>Курс</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>   
+    </div>
+</section>
+    <p class="submit1" style="text-align: left;">Какую социальную сеть <br> используете?<br>
+    <input type="checkbox" id="checkbox" value="Vk">Vk <input type="checkbox" id="checkbox" value="Facebook">Facebook <input type="checkbox" id="checkbox" value="Instagram">Instagram</p>
+    <button type="button" id="submitButton">Отправить</button>  
+</form>
+<footer>
+    <h2>Результаты заполнения:</h2>
+    <p id="formOutput">Здесь появятся данные после отправки формы.</p>
+</footer>
+<script src="Script2.js"></script>
+</body>
+</html> 

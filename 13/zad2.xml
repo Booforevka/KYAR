@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="template2.xsl" type="text/xsl"?>
+<list>  
+    <person>
+    <name>Абдуалиев А.А.</name>
+    <subject>КЯР</subject>
+    <grade>4</grade>
+    </person>
+    <person>
+    <name>Носович А.И.</name>
+    <subject>КЯР</subject>
+    <grade>9</grade>
+    </person>
+    <person>
+    <name>Иванов А.А.</name>
+    <subject>КЯР</subject>
+    <grade>3</grade>
+    </person>
+</list>

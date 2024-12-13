@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20vw 38vw 40vw;
+    width: 100vw;
+    height: 50vw;
+}
+.grid div{
+height: auto;
+border: 2px solid black;
+margin: 5px;
+position: relative;
+display: block;
+}
+.grid div:nth-child(1){
+    display: flex;
+    line-height: 4em;
+    font-size: 30px;
+    
+}

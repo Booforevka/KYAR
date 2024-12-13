@@ -1,0 +1,129 @@
+header nav {
+  width: 60vw;
+  margin: auto;
+}
+header nav li {
+  display: inline;
+  margin-right: 4vw;
+  padding: 1vw;
+  border: 1px solid black;
+  margin: 5px;
+}
+header nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2vw;
+}
+
+header {
+  margin: auto;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 1vw;
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: auto;
+}
+header img {
+  margin-left: 5vw;
+  width: 10vw;
+  height: 10vw;
+}
+main {
+  display: grid;
+  width: 98vw;
+  grid-template-columns: 60vw 39vw;
+  grid-row: 3;
+}
+main .section1 {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+main .section1 h2 {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.6vw;
+}
+main .section1 .mainblock {
+  display: flex;
+  flex-direction: row;
+}
+main .section1 .mainblock .block {
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+}
+main .section2 {
+  width: 60vw;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+main .section2 h2 {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+}
+main .section2 .mainblock {
+  display: flex;
+  flex-direction: row;
+}
+main .section2 .mainblock img {
+  width: 25%;
+  border: 1px solid black;
+  margin: 5px;
+}
+main .grid2 h2 {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  width: 96%;
+}
+main .grid2 .form {
+  width: 37vw;
+  padding: 2px;
+  border: 1px solid black;
+  margin: 5px;
+}
+main .grid2 .form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .grid2 .form form input, main .grid2 .form form textarea, main .grid2 .form form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+main .grid2 .gallery {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+  width: 96%;
+}
+main .grid2 .gallery .block img {
+  width: 25%;
+  float: left;
+  margin: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 5px;
+  align-items: center;
+  margin-top: 20px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Графика в html</title>
+        <style>
+            #ellipse:active{
+                fill: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="zad1">
+            <svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+                <path id="path" d="M 50,50 L 400,50 L 50,400 L 600,400" fill="none" stroke="black" />
+                <text font-size="36" fill="red">
+                    <textPath href="#path" startOffset="50%" text-anchor="middle">
+                        Какой то текст
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div id="zad2">
+            <svg width="800" height="300">
+                <defs >
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="green"/>
+                        <stop offset="100%" stop-color="yellow"/>
+                    </linearGradient>
+                </defs>
+                <circle id="krug" cx="100" cy="100" r="50" fill="blue"><animate attributeName="stroke-width" from="0" to="5" begin="mouseover" end="mouseout" dur="3s"/> <animate attributeName="stroke" from="blue" to="black" dur="3s" begin="mouseover" end="mouseout" /></circle>
+                <rect x="175" y="50" width="100" height="100" fill="red" id="rect"><animate attributeName="stroke-width" from="0" to="7" dur="3s" repeatCount="indefinite"/><animate attributeName="stroke" from="violet" to="black" dur="3s" repeatCount="indefinite"/></rect>
+                <ellipse  cx="400" cy="100" rx="80" ry="50" fill="green" id="ellipse"> </ellipse>
+                <polyline points="500 150 550 50 600 150" fill="url(#gradient)"> </polyline>
+                <polyline points="50 200 350 200 200 250 600 250" fill="none" stroke="darkblue"/>
+            </svg>
+        </div>
+        <div id="zad3">
+                <svg fill="#000000" width="1000" height="200px" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="90,20 130,70 110,70 140,120 100,120 100,150 80,150 80,120 40,120 70,70 50,70" 
+                    fill="none" stroke="black" stroke-width="2"/>
+                    <path d="M 100,100 A 10,10 0 1,0 99.9,100Z" fill="red" opacity="1"><animate attributeName="opacity" from="1" to="0" dur="0.5s" repeatCount="indefinite"/></path>
+                    <path d="M 75,75 A 6,6 6 1,0 74.9,74.9Z" fill="green"opacity="1"><animate attributeName="opacity" from="1" to="0.2" dur="2s" repeatCount="indefinite"/></path>
+                    <path d="M 78,50 A 5,5 0 1,0 77,49.5Z" fill="lime"opacity="1"> <animate attributeName="fill" from="yellow" to="brown" dur="2s" repeatCount="indefinite"/></path>
+                </svg>
+        </div>
+        <div id="zad4">
+            <svg width="800 " height="200">
+        <defs>
+            <path fill="red" id="heart" d="M100 34.976c0 8.434-3.635 16.019-9.423 21.274h0.048l-31.25 31.25c-3.125 3.125-6.25 6.25-9.375 6.25s-6.25-3.125-9.375-6.25l-31.202-31.25c-5.788-5.255-9.423-12.84-9.423-21.274 0-15.865 12.861-28.726 28.726-28.726 8.434 0 16.019 3.635 21.274 9.423 5.255-5.788 12.84-9.423 21.274-9.423 15.865 0 28.726 12.861 28.726 28.726z"/>
+        </defs>
+            <use xlink:href="#heart" X="0" y="0" transform="rotate(180, 50, 50)"/>
+            <use xlink:href="#heart" X="120" y="-90" transform="skewY(30)"/>
+            <use xlink:href="#heart" X="300" y="0" transform="scale(0.8)"/>
+            <use xlink:href="#heart" X="375" y="0" transform="translate(100 100)"/>
+            <use xlink:href="#heart" X="500" y="0" transform="skewX(30)"/>
+            </svg>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    position: relative;
+    width: 30vw;
+    height: 50vh;
+}
+
+.container img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    transition: border 0.3s ease;
+}
+
+#img2.clicked {
+    border: 10px solid red;
+}
+
+#img3 {
+    transition: opacity 0.3s ease;
+}
+
+#description {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#img1:hover #description{
+    visibility: visible;
+}

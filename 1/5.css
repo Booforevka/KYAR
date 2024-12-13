@@ -1,0 +1,43 @@
+
+header,nav
+{
+    background-color: #d6fa0960;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+nav{
+    margin: 10px 10px 10px 10px ;
+    font-size: 20px;
+}
+section{
+    text-align: center;
+    background-color: yellow;
+    left: 150px;
+    width: 1000px;
+    display: block;
+    float: left;
+    position:absolute;
+    margin: 10px 10px 10px 10px;
+
+}
+aside{
+    text-align: center;
+    padding-left: 50px;
+    width: 500px;
+    display: block;
+    float: right;
+    position: absolute;
+    background-color: bisque;
+    right: 5px;
+    margin: 10px 10px 10px 10px;
+    
+}
+footer
+{
+display: block;    
+text-align: right;
+position: absolute;
+float: right;
+top: 500px;
+right: 10px;
+}

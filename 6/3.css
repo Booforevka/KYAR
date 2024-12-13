@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.div1{
+    background-image: linear-gradient(to bottom, blue 30%,red 95%  );
+}
+.div2{
+    background-image:repeating-linear-gradient(to bottom left,red,red 10px,blue 10px,blue 20px   );
+}
+.div3{
+    background-image: radial-gradient(yellow 20%,green 80%);
+}
+.div4{
+    background:repeating-radial-gradient(red,red 5%,blue 5%,blue 10%);
+}
+.div5{
+    background-image:  radial-gradient(circle, indigo 0% 10%,green 50%, rgba(0,0,0,0) 80%),linear-gradient(to bottom, yellow,red)
+}

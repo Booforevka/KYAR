@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="UTF-8"?> 
+<?xml-stylesheet href="index1.xsl" type="text/xsl"?>
+<store>
+    <product>
+        <name>Смартфон</name>
+        <category>Электроника</category>
+        <price>799</price>
+    </product>
+    <product>
+        <name>Ноутбук</name>
+        <category>Компьютеры</category>
+        <price>3627</price>
+    </product>
+    <product>
+        <name>Холодильник</name>
+        <category>Бытовая техника</category>
+        <price>2699</price>
+    </product>
+    <product>
+        <name>Телевизор</name>
+        <category>Электроника</category>
+        <price>2140</price>
+    </product>
+    <product>
+        <name>Микроволновка</name>
+        <category>Бытовая техника</category>
+        <price>399</price>
+    </product>
+</store>

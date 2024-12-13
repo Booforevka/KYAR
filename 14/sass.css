@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Monotype Corsiva";
+  src: url(Monotype-Corsiva-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+  font-family: "Monotype Corsiva";
+}
+
+h2 {
+  text-align: left;
+  font-family: "Monotype Corsiva";
+}
+
+h3 {
+  text-align: left;
+  font-family: "Monotype Corsiva";
+}
+
+.p1 {
+  color: blue;
+  font-family: "Arial";
+}
+.p1 span.span1 {
+  color: green;
+  font-style: italic;
+}
+.p1 span.span2 {
+  color: brown;
+  font-style: italic;
+}
+.p1 span.span3 {
+  font-style: italic;
+}
+
+ol .li1 {
+  color: red;
+  font-family: "Times New Roman";
+  font-size: 18pt;
+  list-style-type: square;
+}
+ol .li2 {
+  color: yellow;
+  font-size: 18pt;
+  font-family: "Times New Roman";
+}
+ol .li3 {
+  color: green;
+  font-size: 22pt;
+  list-style-type: disc;
+}
+
+table {
+  width: 98vw;
+}
+table tr caption {
+  border: 1px solid black;
+}
+table tr td, table tr th {
+  border: 1px solid black;
+}
+table tr td {
+  color: green;
+}
+
+.svgcontainer div {
+  display: inline-block;
+}/*# sourceMappingURL=sass.css.map */

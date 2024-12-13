@@ -1,0 +1,42 @@
+store {
+    display: table;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+product {
+    display: table-row;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: justify;    
+}
+
+name {
+    width: 200px;
+    display:  inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid black;
+}
+category {
+    width: 200px;
+    display:  inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px;
+    border: 1px solid black;
+}
+price {
+    width: 120px;
+    text-align: center;
+    display:  inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px;
+    border: 1px solid black;
+}
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="store.xsd">
+    <product>
+        <name>Смартфон  </name>
+        <category>Электроника</category>
+        <price>799,00 BYN</price>
+    </product>
+    <product>
+        <name>Ноутбук</name>
+        <category>Компьютеры</category>
+        <price>3627,00 BYN</price>
+    </product>
+    <product>
+        <name>Холодильник</name>
+        <category>Бытовая техника</category>
+        <price>2699,00 BYN</price>
+    </product>
+    <product>
+        <name>Телевизор</name>
+        <category>Электроника</category>
+        <price>2140,00 BYN</price>
+    </product>
+    <product>
+        <name>Микроволновка</name>
+        <category>Бытовая техника</category>
+        <price>399,00 BYN</price>
+    </product>
+</store>
